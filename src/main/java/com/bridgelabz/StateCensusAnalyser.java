@@ -39,10 +39,6 @@ public class StateCensusAnalyser {
             csvToBeanBuilder.withType((Class) myClass);
             csvToBeanBuilder.withIgnoreLeadingWhiteSpace(true);
             csvToBean = csvToBeanBuilder.build();
-//            csvToBean = new CsvToBeanBuilder(reader)
-//                    .withType((Class) myClass)
-//                    .withIgnoreLeadingWhiteSpace(true)
-//                    .build();
             return csvToBean.iterator();
         } catch (NoSuchFileException e) {
             throw new CensusAnalyserException(CensusAnalyserException.CensusExceptionType.NO_SUCH_FILE,

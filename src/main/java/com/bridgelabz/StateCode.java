@@ -57,5 +57,4 @@ public class StateCode {
                 ", stateCode='" + stateCode + '\'' +
                 '}';
     }
-
 }

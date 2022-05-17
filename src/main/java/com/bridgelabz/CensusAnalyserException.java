@@ -8,6 +8,7 @@ public class CensusAnalyserException extends Exception{
     private String message;
 
     public CensusAnalyserException() {
+
     }
 
     public CensusAnalyserException(CensusExceptionType type, String message) {

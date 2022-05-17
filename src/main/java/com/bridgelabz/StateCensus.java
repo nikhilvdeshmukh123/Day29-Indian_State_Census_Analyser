@@ -57,6 +57,6 @@ public class StateCensus {
                 ", population='" + population + '\'' +
                 ", areaInSqKm='" + areaInSqKm + '\'' +
                 ", densityPerSqKm='" + densityPerSqKm + '\''
-                +"\n";
+                + "\n";
     }
 }
